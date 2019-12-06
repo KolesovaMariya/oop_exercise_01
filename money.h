@@ -6,21 +6,21 @@ public:
     Money();
     Money(unsigned long long r, unsigned char k);
 
-    unsigned long long GetRub();
-    unsigned char GetKop();
+    unsigned long long GetRub() const;
+    unsigned char GetKop() const;
 
 
-    Money Sum(const Money &b);
-    Money Sub(const Money &b);
-    Money Mlt(const double &b);
-    Money DivFract(const double &b); //деление на дробное число
-    Money Div(const Money &b); //деление на Money
+    Money Sum(const Money &b) const;
+    Money Sub(const Money &b) const;
+    Money Mlt(const double &b) const;
+    Money DivFract(const double &b) const; //деление на дробное число
+    Money Div(const Money &b) const; //деление на Money
 
-    bool More(const Money &b);
-    bool Less(const Money &b);
-    bool Equal(const Money &b);
+    bool More(const Money &b) const;
+    bool Less(const Money &b) const;
+    bool Equal(const Money &b) const;
 
-    void Print();
+    void Print() const;
     void Read();
 
 private:

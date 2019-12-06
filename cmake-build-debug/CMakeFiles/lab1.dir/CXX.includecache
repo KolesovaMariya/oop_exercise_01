@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/LENOVO/CLionProjects/OOP/lab1/main.cpp
-iostream
--
+C:/Users/LENOVO/CLionProjects/OOP/lab1/money.cpp
 money.h
 C:/Users/LENOVO/CLionProjects/OOP/lab1/money.h
-fstream
+iostream
 -
 
 C:/Users/LENOVO/CLionProjects/OOP/lab1/money.h

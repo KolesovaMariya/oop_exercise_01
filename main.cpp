@@ -3,8 +3,8 @@
 #include <fstream>
 int main() {
     //для чтения из файла в CLion на винде
-    std::ifstream in(R"(C:\Users\LENOVO\CLionProjects\OOP\lab1\test_01.txt)");
-    std::cin.rdbuf(in.rdbuf());
+    // std::ifstream in(R"(C:\Users\LENOVO\CLionProjects\OOP\lab1\test_01.txt)");
+    //std::cin.rdbuf(in.rdbuf());
     Money a, b;
     double c;
     int n = 0;
